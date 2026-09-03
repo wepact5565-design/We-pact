@@ -1,0 +1,6 @@
+{
+  "name": "WE-PACT",
+  "description": "Where People, Strategy & Democracy Connect. Election campaign strategy and public-engagement organisation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
