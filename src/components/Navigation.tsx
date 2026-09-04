@@ -82,7 +82,8 @@ export function Navigation() {
             transition={{ type: 'spring', bounce: 0, duration: 0.4 }}
             className="fixed inset-0 z-[60] bg-navy text-white flex flex-col"
           >
-            <div className="px-6 py-6 flex justify-end">
+            <div className="px-6 py-6 flex items-center justify-between">
+              <img src="/logo.jpeg" alt="WE-PACT" className="h-10 w-auto" />
               <button
                 className="p-2 text-gray-300 hover:text-white"
                 onClick={() => setIsMobileMenuOpen(false)}
