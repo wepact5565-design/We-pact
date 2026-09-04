@@ -32,8 +32,10 @@ export function Navigation() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-          <a href="#home" className="text-2xl font-serif font-bold tracking-tight flex items-center">
-            <img src="/logo.jpeg" alt="WE-PACT" className="h-16 w-auto" />
+          <a href="/logo.jpeg" target="_blank" rel="noopener noreferrer" className="text-2xl font-serif font-bold tracking-tight flex items-center">
+            <a href="/logo.jpeg" target="_blank" rel="noopener noreferrer">
+              <img src="/logo.jpeg" alt="WE-PACT" className="h-16 w-auto" />
+            </a>
           </a>
           
           <nav className="hidden lg:flex items-center gap-8">
