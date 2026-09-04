@@ -32,8 +32,8 @@ export function Navigation() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-          <a href="#home" className="text-2xl font-serif font-bold tracking-tight">
-            WE-PACT<span className="text-saffron">.</span>
+          <a href="#home" className="text-2xl font-serif font-bold tracking-tight flex items-center">
+            <img src="/logo.jpeg" alt="WE-PACT" className="h-10 w-auto" />
           </a>
           
           <nav className="hidden lg:flex items-center gap-8">
