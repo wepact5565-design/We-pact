@@ -33,7 +33,7 @@ export function Navigation() {
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <a href="#home" className="text-2xl font-serif font-bold tracking-tight flex items-center">
-            <img src="/logo.jpeg" alt="WE-PACT" className="h-10 w-auto" />
+            <img src="/logo.jpeg" alt="WE-PACT" className="h-16 w-auto" />
           </a>
           
           <nav className="hidden lg:flex items-center gap-8">
@@ -83,7 +83,7 @@ export function Navigation() {
             className="fixed inset-0 z-[60] bg-navy text-white flex flex-col"
           >
             <div className="px-6 py-6 flex items-center justify-between">
-              <img src="/logo.jpeg" alt="WE-PACT" className="h-10 w-auto" />
+              <img src="/logo.jpeg" alt="WE-PACT" className="h-16 w-auto" />
               <button
                 className="p-2 text-gray-300 hover:text-white"
                 onClick={() => setIsMobileMenuOpen(false)}
