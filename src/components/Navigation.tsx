@@ -20,6 +20,7 @@ export function Navigation() {
     { name: 'The Team', href: '#team' },
     { name: 'What We Do', href: '#what-we-do' },
     { name: 'Our Outcomes', href: '#outcomes' },
+    { name: 'Reports', href: '#reports' },
     { name: 'Our Vision', href: '#vision' },
     { name: 'Media', href: '#media' },
   ];
@@ -93,7 +94,7 @@ export function Navigation() {
                 <X className="w-8 h-8" />
               </button>
             </div>
-            <nav className="flex-1 flex flex-col items-center justify-center gap-8 p-6">
+            <nav className="flex-1 flex flex-col items-center justify-center gap-6 p-6">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
